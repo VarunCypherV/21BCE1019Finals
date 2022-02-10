@@ -32,9 +32,6 @@ html{
 
 }
 
-.btn:oc
-  background-color:transparent ;
-}
 
 .btn:hover{
   background-color: transparent;
