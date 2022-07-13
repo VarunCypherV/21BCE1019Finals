@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 /*.body{
   overflow-x: hidden;
@@ -349,7 +350,7 @@ html{
 }
 .elfsight-app-c5332b83-0484-4fde-af74-9056e673d64d{
   position: relative;
-  bottom:85%;
+  bottom:88%;
   left:1010px;
 }
 .footfall{
@@ -362,7 +363,7 @@ html{
   font-weight: bolder;
   font-size:72px;
   position:absolute;
-  top:435%;
+  top:420%;
   left:7%;
 }
 .footfallw1hr{
@@ -371,7 +372,7 @@ html{
   background-color: white;
   width:350px;
   position: absolute;
-  top:455%;
+  top:435%;
   left:25%;
 
 }
@@ -384,6 +385,7 @@ html{
 .contactus1{
   font-family: sans-serif;
   color:white;
+  max-width: 100vw;
   font-size:64px;
   text-align: center;
   position: relative;
@@ -392,34 +394,36 @@ html{
 .VRReality1{
   font-family:'Oxygen',sans-serif;
   color:white;
+  width: 100vw;
   font-size:48px;
   font-weight: bold;
   text-align: left;
-  position: absolute;
-  top:515%;
+  position: relative;
+  /* top:515%;*/
   left:11%;
   margin:0;
 }
 .VRReality2{
   font-family:'Oxygen',sans-serif;
   margin:0;
+  max-width: 100vw;
   color:white;
   font-size:48px;
   font-weight:lighter;
-  text-align: left;
-  position: absolute;
-  top:525%;
-  left:3%;
+  text-align: center;
+  position: relative;
+  right:25%;
+  top:7%;
 }
 .social{
   font-family:'Oxygen',sans-serif;
   color:white;
   font-size:48px;
   font-weight: bold;
-  text-align: left;
-  position: absolute;
-  top:515%;
-  left:70%;
+  text-align: right;
+  position: relative;
+  bottom:48%;
+  right:11%;
   margin:0;
 }
 .social p{
@@ -432,17 +436,19 @@ html{
 
 }
 .reff1{
-  position: absolute;
-  top:525%;
-  left:78%;
+  position: relative;
+  bottom:20%;
+  left:70%;
+
 }
 .reff2{
-  position: absolute;
-  top:525%;
-  left:70%;
+  position: relative;
+  bottom:20%;
+  left:72%;
+
 }
 .reff3{
-  position: absolute;
-  top:525%;
-  left:86%;
+  position: relative;
+  bottom:20%;
+  left:74%;
 }
